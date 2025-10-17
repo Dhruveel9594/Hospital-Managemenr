@@ -14,7 +14,7 @@ config({ path: ".env" });
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
+    origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO,"https://hospital-managemenr-duol.vercel.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
